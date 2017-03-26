@@ -13,10 +13,6 @@
     "**/node_modules": true,
     "tmp": true
   },
-  "path-intellisense.mappings": {
-    "/": "${workspaceRoot}",
-    "public": "${workspaceRoot}/public"
-  },
   "terminal.integrated.shellArgs.osx": [
     "-l"
   ],
@@ -29,12 +25,21 @@
     "**/.DS_Store": true,
     "**/.localized": true
   },
-  "editor.minimap.enabled": true,
+  "editor.minimap.enabled": false,
   "vsicons.projectDetection.disableDetect": true,
   "workbench.iconTheme": "material-icon-theme",
   "workbench.colorTheme": "Material Theme",
+
+  // Extensions
+  "path-intellisense.mappings": {
+    "/": "${workspaceRoot}",
+    "public": "${workspaceRoot}/public"
+  },
+
+  // Golang
+  "go.formatOnSave": false,
   "[go]": {
     "editor.insertSpaces": false,
-    "editor.tabSize": 8,
+    "editor.tabSize": 8
   }
 }
