@@ -1,0 +1,40 @@
+// Place your settings in this file to overwrite the default settings
+{
+  "editor.fontFamily": "Fira Code",
+  "editor.fontSize": 13,
+  "files.trimTrailingWhitespace": true,
+  "editor.renderWhitespace": "boundary",
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "html.format.endWithNewline": true,
+  "window.zoomLevel": 0,
+  "editor.fontLigatures": true,
+  "search.exclude": {
+    "**/node_modules": true,
+    "tmp": true
+  },
+  "path-intellisense.mappings": {
+    "/": "${workspaceRoot}",
+    "public": "${workspaceRoot}/public"
+  },
+  "terminal.integrated.shellArgs.osx": [
+    "-l"
+  ],
+  "editor.wordWrap": "on",
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": false,
+    "**/.hg": false,
+    "**/.idea": true,
+    "**/.DS_Store": true,
+    "**/.localized": true
+  },
+  "editor.minimap.enabled": true,
+  "vsicons.projectDetection.disableDetect": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Material Theme",
+  "[go]": {
+    "editor.insertSpaces": false,
+    "editor.tabSize": 8,
+  }
+}
