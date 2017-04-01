@@ -37,7 +37,7 @@
   },
 
   // Golang
-  "go.formatOnSave": false,
+  "go.formatOnSave": true,
   "[go]": {
     "editor.insertSpaces": false,
     "editor.tabSize": 8
